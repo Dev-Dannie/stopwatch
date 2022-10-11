@@ -1,0 +1,54 @@
+*,::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #999;
+}
+
+.center{
+    background: #ccc;
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 4rem;
+}
+
+.count{
+    font-size: 4rem;
+    margin-bottom: 10%;
+}
+
+.btns{
+    padding: 1.2rem;
+}
+
+button{
+    background: white;
+    margin: 0.75rem;
+    border: none;
+}
+
+button i{
+    font-size: 1.2rem;
+    padding: 0.75rem;
+}
+
+#play{
+    color: green;
+}
+
+#restart{
+    color: red;
+}
+
+#pause-btn{
+    color: blue;
+}
