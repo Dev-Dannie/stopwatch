@@ -12,7 +12,7 @@ let seconds = 0;
 
 // create a function for the timer
 
-function timer(){
+const timer = () => {
     // increment the seconds to start timer
     seconds++
     // variables & conditions for minutes and hours
